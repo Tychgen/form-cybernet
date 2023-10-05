@@ -1,7 +1,7 @@
 import React from 'react';
-import { TextField } from './TextField';
-import {NumberField} from './NumberField'
-import { EmailTextField } from './EmailTextField';
+import { TextField } from './fields/TextField';
+import {NumberField} from './fields/NumberField'
+import { EmailTextField } from './fields/EmailTextField';
 import { Formik, Form } from 'formik';
 import { Button } from 'antd';
 import * as Yup from 'yup';
