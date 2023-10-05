@@ -64,7 +64,7 @@ function Submit() {
               <NumberField type="tel" name="phoneNumber" inputMode="numeric" />
             </div>
             <Button type="primary" className="mt-3" htmlType="submit" disabled={isSubmitting}>
-             Register
+             Submit
             </Button>
           </Form>
         )}
