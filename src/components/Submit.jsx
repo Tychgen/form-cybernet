@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextField } from './TextField';
-import {NumberTextField} from './NumberField'
+import {NumberField} from './NumberField'
 import { EmailTextField } from './EmailTextField';
 import { Formik, Form } from 'formik';
 import { Button } from 'antd';
@@ -61,7 +61,7 @@ function Submit() {
             </div>
             <div className="mb-2">
               <label htmlFor="phoneNumber">Phone Number</label>
-              <NumberTextField type="tel" name="phoneNumber" inputMode="numeric" />
+              <NumberField type="tel" name="phoneNumber" inputMode="numeric" />
             </div>
             <Button type="primary" className="mt-3" htmlType="submit" disabled={isSubmitting}>
              Register
