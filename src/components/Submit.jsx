@@ -49,19 +49,19 @@ function Submit() {
           <Form>
             <div className="mb-2">
               <label htmlFor="firstName">First Name</label>
-              <TextField type="text" name="firstName" />
+              <TextField type="text" name="firstName" placeholder="Joe"/>
             </div>
             <div className="mb-2">
               <label htmlFor="lastName">Last Name</label>
-              <TextField type="text" name="lastName" />
+              <TextField type="text" name="lastName" placeholder="Rockford"/>
             </div>
             <div className="mb-2">
               <label htmlFor="email">Email</label>
-              <EmailTextField type="text" name="email" />
+              <EmailTextField type="text" name="email" placeholder="example@example.com"/>
             </div>
             <div className="mb-2">
               <label htmlFor="phoneNumber">Phone Number</label>
-              <NumberField type="tel" name="phoneNumber" inputMode="numeric" />
+              <NumberField type="tel" name="phoneNumber" inputMode="numeric" placeholder="EX-000-000-000"/>
             </div>
             <Button type="primary" className="mt-3" htmlType="submit" disabled={isSubmitting}>
              Submit
